@@ -28,7 +28,7 @@ def create_app():
                access_token_name='accessToken',
                expiration_delta=3600,
                private_key='MySuperSecretKey',
-               secret='SuperSecretForGeneratingToken',
+               secret='SuperSecretForToken',
                user_id='id')
 
     # register blueprints
