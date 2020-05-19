@@ -5,7 +5,7 @@ DEBUG = True
 HOST_IP = '0.0.0.0'
 HOST_PORT = '8888'
 
-DB_NAME = 'Upos'
+DB_NAME = os.environ.get('DB_NAME')
 
 
 DB_USER = os.environ.get('DB_USER')
